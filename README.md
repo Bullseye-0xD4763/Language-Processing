@@ -6,9 +6,15 @@
 
 
 
-1. CSV to JSON Coverter
+1.CSV to JSON Coverter
 ------------------------------
 
 Utilizes regular expressions to convert standard CSV files, and its respective columns, to JSON format.
 
+
+
+2.PLY-simple to PLY conversion
+----------------------------------
+
+A PLY-SIMPLE to PLY. Since PLY grammar can be overwhelming this tool allows you to type simpler commands that will still generate the desired python code.
 
