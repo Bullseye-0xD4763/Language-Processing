@@ -1,0 +1,30 @@
+lang : LEX comandos YACC regras
+
+comandos : 
+comandos : comando comandos
+
+comando : LITIGN EQ STRING
+comando : TOKENS EQ LISTA
+comando : COMMENT
+comando : EXPRE CODIGO
+comando : RESERVED lres FIM
+
+lres : 
+lres : CONT lres
+
+
+
+regras : 
+regras : regra regras
+
+regra : COMMENT
+regra : PROD lprod FIM
+regra : ID EQ exp               
+regra : ID                  
+regra : FUNC CONT
+regra : PRECEDENCES EQ LISTA
+
+lprod : 
+lprod : prod lprod
+
+prod : CONT CODIGO
