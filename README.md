@@ -18,5 +18,4 @@ Utilizes regular expressions to convert standard CSV files, and its respective c
 
 A PLY-SIMPLE to PLY converter. 
 
-Since PLY grammar can be overwhelming this tool allows you to type simpler commands that will still generate the desired python code.
-
+Since PLY grammar can be overwhelming, this tool allows you to type simpify grammar. Desired python code can then be generated with simpler commands.
