@@ -7,5 +7,5 @@
 CSV to JSON Coverter
 ----------------------
 
-Converts standart CSV files to JSON using regular expressions to replace rows of CSV to JSON.
+Converts standard CSV files to JSON using regular expressions in order to replace CSV rows with JSON format.
 
